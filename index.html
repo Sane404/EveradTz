@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="logo_title">
+                <img src="./assets/clown-fish.svg">
+                <p>Суши-шмастер</p>
+            </div>
+            <button class="header_btn">Сделать заказ</button>
+        </div>
+    </header>
+    <main>
+        <div class="about">
+            <h2>Cуши-шмастер - лучшее, что есть в твоем городе <br>
+                Порадуй себя и своих родных и близких</h2>
+            <h4>Ниже представлены наши самые популярные позиции за последние полгода работы на карантине</h4>
+        </div>
+        <p>Актуальные позиции</p>
+        <div class="products_wrapper">
+
+            <div class="products">
+                <div class="product_card">
+                    <img src="./assets/green.webp" alt='Green roll'>
+                    <div class="about_product">
+                        <div class="title">Гринобль ролл</div>
+                        <div class="description">
+                            Закажи сей вкусный ролл,
+                            Он украсит ваший стол, Он порадует ваш глаз,
+                            Получи скорей экстаз!
+                        </div>
+                        <span class="order available">Заказать</span>
+                    </div>
+
+                </div>
+                <div class="product_card">
+                    <img src="./assets/orange.webp" alt='Orange roll'>
+                    <div class="about_product">
+                        <div class="title">Оранжад ролл</div>
+                        <div class="description">Закажи сей вкусный ролл,
+                            Он украсит ваший стол, Он порадует ваш глаз,
+                            Получи скорей экстаз!</div>
+                        <span class="order not_available">Недоступно к заказу</span>
+                    </div>
+
+                </div>
+                <div class="product_card">
+                    <img src="./assets/brownie.webp" alt="Brownie roll">
+                    <div class="about_product">
+                        <div class="title">Брауни ролл</div>
+                        <div class="description"> Закажи сей вкусный ролл,
+                            Он украсит ваший стол, Он порадует ваш глаз,
+                            Получи скорей экстаз!</div>
+                        <span class="order not_available">Недоступно к заказу</span>
+                    </div>
+
+                </div>
+                <div class="other_products">
+                    <img src="./assets/other.webp" alt="Other products">
+                </div>
+            </div>
+        </div>
+
+        <div class="slider">
+            <h2>Самые выгодные предложения:</h2>
+            <div class="carousel">
+                <div class="item green visible">Item 1</div>
+                <div class="item orange">Item 2</div>
+                <div class="item blue">Item 3</div>
+            </div>
+            <div class="controls">
+                <div id="prev">&#8249;</div>
+                <div class="dot" data-id='0'></div>
+                <div class="dot" data-id='1'></div>
+                <div class="dot" data-id='2'></div>
+                <div id="next">&#8250;</div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        Copyright
+    </footer>
+</body>
+
+</html>
